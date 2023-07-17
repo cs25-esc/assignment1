@@ -37,6 +37,6 @@ model = tf.keras.Sequential([
 
 below code: helps to compile and evaluate the model
 
-model.compile(optimizer = 'adam' , loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True), metrics = ['accuracy'])
+model.compile(optimizer = 'adam' , loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True), metrics = ['accuracy']) <br>
 history = model.fit(train_dataset , epochs = 10 , validation_data = test_dataset)
 
