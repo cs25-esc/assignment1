@@ -1,3 +1,21 @@
+# an end to end application of classification of images using streamlit
+
+
+<img width="841" alt="Screenshot 2023-07-17 at 6 59 49 PM" src="https://github.com/cs25-esc/assignment1/assets/68850280/ee47f23a-163f-47fc-8fbd-b5832cc2863e">
+
+
+step1 - upload the image
+step2 - click the button for classification
+
+
+# method
+
+the trained deep learning model has been converted into a .h5 file so that we can use the model in the streamlit application
+
+
+
+
+
 # assignment1
 classification CNN model
 
