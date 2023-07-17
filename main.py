@@ -7,11 +7,10 @@ from tensorflow.keras.preprocessing import image
 
 import os
 
-
 import tensorflow as tf
 from tensorflow import keras
 from keras import Sequential
-from keras.layers import Dense,Conv2D,MaxPooling2D,Flatten
+from keras.layers import Dense, Conv2D, MaxPooling2D, Flatten
 
 st.title('Classification app')
 
@@ -28,6 +27,7 @@ def preprocess_images(path):
     img_array = np.expand_dims(img_array, axis=0)
 
     return img_array
+
 
 if (imq):
     im = Image.open(imq)
@@ -48,6 +48,9 @@ if (imq):
     class_labels = ['buildings', 'forest', 'glacier', 'mountain', 'sea', 'street']
     predicted_class_label = class_labels[predicted_class_index]
 
+    if st.button('Classify the uploaded image'):
+        st.text("you have uploaded an image of " + predicted_class_label)
 
 
-    st.text("you have uploaded an image of " +  predicted_class_label)
+
+
