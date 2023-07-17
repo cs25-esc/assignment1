@@ -13,6 +13,12 @@ step2 - click the button for classification
 the trained deep learning model has been converted into a .h5 file so that we can use the model in the streamlit application
 
 
+# result
+
+![image](https://github.com/cs25-esc/assignment1/assets/68850280/29eec6d6-be5b-4e85-8d1a-37d7db62d57f)
+
+
+
 
 
 
